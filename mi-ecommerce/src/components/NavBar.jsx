@@ -6,9 +6,9 @@ const NavBar = () => {
     <nav className="flex justify-between items-center p-4 bg-white shadow-md">
       <div className="navbar-brand">
         <img
-          src="./assets/comercio-electronico.png"
+          src="src/assets/comercio-electronico.png"
           alt="Logo"
-          className="navbar-logo w-24 h-auto" // Ajusta el tamaño del logo aquí
+          className="navbar-logo w-[50px] h-auto" // Ajusta el tamaño de la imagen a 25px de ancho
         />
       </div>
       <ul className="flex space-x-6">
